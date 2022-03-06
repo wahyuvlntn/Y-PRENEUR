@@ -20,6 +20,7 @@ class SignUpActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+
         binding.btnNext.setOnClickListener {
             val email  = binding.etEmail.text.toString().trim()
             val password = binding.etPassword.text.toString().trim()
