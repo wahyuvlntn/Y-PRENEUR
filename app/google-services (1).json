@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "74448527471",
+    "project_id": "y-preneur-518ed",
+    "storage_bucket": "y-preneur-518ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74448527471:android:4f1114f2c3f394d257ed9a",
+        "android_client_info": {
+          "package_name": "com.example.y_preneur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74448527471-nuqfe616a45hd7tf2fk5vc6f92uchej4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADK3lqo_vaNHaS60ERSwlTZ6aHBcMBMk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74448527471-nuqfe616a45hd7tf2fk5vc6f92uchej4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
