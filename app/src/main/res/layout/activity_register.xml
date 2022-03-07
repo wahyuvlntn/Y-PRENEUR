@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3F6FB"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -124,9 +125,8 @@
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
-        android:backgroundTint="#C4C4C4"
+        android:backgroundTint="#0064FE"
         android:text="CREATE"
-        android:textColor="@color/black"
         app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="@id/et_birth"
         app:layout_constraintStart_toStartOf="@id/et_birth"
