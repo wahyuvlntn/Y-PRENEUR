@@ -11,7 +11,7 @@ class AccountCreateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAccountCreateBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_account_create)
+
 
         binding = ActivityAccountCreateBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -19,19 +19,10 @@ class AccountCreateActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         binding.btnContApp.setOnClickListener {
-            val intent = Intent(this@AccountCreateActivity,MainMenuActivity::class.java)
+            val intent = Intent(this@AccountCreateActivity,HomeScreenActivity::class.java)
             startActivity(intent)
         }
 
     }
 
-    override fun onStart() {
-        super.onStart()
-        if(auth.currentUser != null){
-            Intent(this@AccountCreateActivity,MainMenuActivity::class.java).also {
-                it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                startActivity(it)
-            }
-        }
-    }
 }

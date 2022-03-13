@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#F3F6FB"
+    android:background="@drawable/gradient_bg"
     android:layout_height="match_parent"
     tools:context=".SignUpActivity">
 
@@ -117,14 +117,14 @@
         android:id="@+id/et_repassword"
         android:layout_width="320dp"
         android:layout_height="40dp"
-        app:layout_constraintEnd_toEndOf="@id/tv_repassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
         android:background="#E7F0FF"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/tv_repassword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/tv_repassword"
-        app:layout_constraintTop_toTopOf="@id/tv_repassword"
-        android:layout_gravity="center_horizontal"
-        android:inputType="textPassword"
-        android:layout_marginTop="30dp"></EditText>
+        app:layout_constraintTop_toTopOf="@id/tv_repassword"></EditText>
 
     <Button
         android:id="@+id/btn_next"

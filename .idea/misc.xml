@@ -4,13 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1765" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/drawable/gradient_bg.xml" value="0.15" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/drawable/ic_grid.xml" value="0.131" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1765" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_account_create.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_create_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main_menu.xml" value="0.15" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_log_out.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_main_menu.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_profile.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_profile_user.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_nav_menu.xml" value="0.102803738317757" />
       </map>
     </option>
   </component>
