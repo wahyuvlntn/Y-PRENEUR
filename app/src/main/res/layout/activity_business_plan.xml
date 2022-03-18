@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_design_1"
+    tools:context=".BusinessPlanActivity">
+
+    <TextView
+        android:id="@+id/tv_rancang_bisnis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="Business Plan"
+        android:textColor="#4799E9"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/tv_nama_perusahaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Company Name"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_rancang_bisnis"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="@id/tv_rancang_bisnis"
+        app:layout_constraintTop_toTopOf="@id/tv_rancang_bisnis"></TextView>
+
+    <EditText
+        android:id="@+id/et_nama_perusahaan"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_nama_perusahaan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_nama_perusahaan"
+        app:layout_constraintTop_toTopOf="@id/tv_nama_perusahaan"></EditText>
+
+    <TextView
+        android:id="@+id/tv_jenis_badan_usaha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Type of Business Entity"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_nama_perusahaan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_nama_perusahaan"
+        app:layout_constraintTop_toTopOf="@id/tv_nama_perusahaan"></TextView>
+
+    <EditText
+        android:id="@+id/et_jenis_badan_usaha"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_jenis_badan_usaha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_jenis_badan_usaha"
+        app:layout_constraintTop_toTopOf="@id/tv_jenis_badan_usaha"></EditText>
+
+    <TextView
+        android:id="@+id/tv_target_pasar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Target Market"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_jenis_badan_usaha"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_jenis_badan_usaha"
+        app:layout_constraintTop_toTopOf="@id/tv_jenis_badan_usaha"></TextView>
+
+    <EditText
+        android:id="@+id/et_target_pasar"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_target_pasar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_target_pasar"
+        app:layout_constraintTop_toTopOf="@id/tv_target_pasar"></EditText>
+
+    <TextView
+        android:id="@+id/tv_sumber_pendanaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sources of Funding"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_target_pasar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_target_pasar"
+        app:layout_constraintTop_toTopOf="@id/tv_target_pasar"></TextView>
+
+    <EditText
+        android:id="@+id/et_sumber_pendanaan"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_sumber_pendanaan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_sumber_pendanaan"
+        app:layout_constraintTop_toTopOf="@id/tv_sumber_pendanaan"></EditText>
+
+    <TextView
+        android:id="@+id/tv_kota_tempat_bisnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="City"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_sumber_pendanaan"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_sumber_pendanaan"
+        app:layout_constraintTop_toTopOf="@id/tv_sumber_pendanaan"></TextView>
+
+    <EditText
+        android:id="@+id/et_kota_tempat_bisnis"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_kota_tempat_bisnis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_kota_tempat_bisnis"
+        app:layout_constraintTop_toTopOf="@id/tv_kota_tempat_bisnis"></EditText>
+
+    <TextView
+        android:id="@+id/tv_bentuk_pemasaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Marketing"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_kota_tempat_bisnis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_kota_tempat_bisnis"
+        app:layout_constraintTop_toTopOf="@id/tv_kota_tempat_bisnis"></TextView>
+
+    <TextView
+        android:id="@+id/tv_penjelasan_produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Business Description"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_bentuk_pemasaran"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_bentuk_pemasaran"
+        app:layout_constraintTop_toTopOf="@id/tv_bentuk_pemasaran"></TextView>
+
+
+    <EditText
+        android:id="@+id/et_business_description"
+        android:layout_width="336dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="@id/tv_penjelasan_produk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_penjelasan_produk"
+        app:layout_constraintTop_toTopOf="@id/tv_penjelasan_produk"></EditText>
+
+    <TextView
+        android:id="@+id/tv_company_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Input Company Logo"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_penjelasan_produk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_penjelasan_produk"
+        app:layout_constraintTop_toTopOf="@id/tv_penjelasan_produk"></TextView>
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="#4799E9"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Continue"
+        app:cornerRadius="12dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_rancang_bisnis"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@id/tv_rancang_bisnis"
+        app:layout_constraintTop_toBottomOf="@id/tv_rancang_bisnis" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="336dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+
+        android:entries="@array/marketing"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@id/tv_bentuk_pemasaran"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_bentuk_pemasaran"
+        app:layout_constraintTop_toBottomOf="@id/tv_bentuk_pemasaran" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

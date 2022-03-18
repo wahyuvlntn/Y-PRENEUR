@@ -19,7 +19,7 @@ class AccountCreateActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         binding.btnContApp.setOnClickListener {
-            val intent = Intent(this@AccountCreateActivity,HomeScreenActivity::class.java)
+            val intent = Intent(this@AccountCreateActivity,BuildBusinessActivity::class.java)
             startActivity(intent)
         }
 

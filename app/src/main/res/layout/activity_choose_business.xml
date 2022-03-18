@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_design_1"
+    tools:context=".ChooseBusinessActivity">
+
+
+    <TextView
+        android:id="@+id/tv_choose_business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="Choose Business\nType"
+        android:textColor="#2B73BA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_1"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_fnb"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="180dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/beverage"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:longClickable="false"
+        android:text="F&amp;B"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_1_2"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_fashion"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="180dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/fashion"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Fashion"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_2"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_bubble_business_1"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_education"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="348dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/education"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Education"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_2_2"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_bubble_business_1_2"></ImageView>
+
+
+    <TextView
+        android:id="@+id/tv_otomotive"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="348dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/otomotive"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Otomotive"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_3"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_bubble_business_2"></ImageView>
+
+
+    <TextView
+        android:id="@+id/tv_technology"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="512dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/technology"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Technology"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_bubble_business_3_2"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_bubble_business_2_2"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_event_organizer"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="516dp"
+        android:clickable="false"
+        android:drawableTop="@drawable/event_organizer"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Event\nOrganizer"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="552dp"
+        android:backgroundTint="#4799E9"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Continue"
+        app:cornerRadius="12dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_choose_business"
+        app:layout_constraintStart_toStartOf="@id/tv_choose_business"
+        app:layout_constraintTop_toBottomOf="@id/tv_choose_business" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

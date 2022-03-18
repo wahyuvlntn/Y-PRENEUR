@@ -1,14 +1,12 @@
-package com.example.y_preneur
+package com.example.y_preneur.login_register
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.widget.Button
-import android.widget.EditText
+import com.example.y_preneur.RegisterActivity
 import com.example.y_preneur.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -52,7 +50,7 @@ class SignUpActivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                 if(it.isSuccessful){
-                    val intent = Intent(this@SignUpActivity,RegisterActivity::class.java)
+                    val intent = Intent(this@SignUpActivity, RegisterActivity::class.java)
                     startActivity(intent)
                 }
             }

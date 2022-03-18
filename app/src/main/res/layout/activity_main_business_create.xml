@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_design_1"
+    tools:context=".MainBusinessCreateActivity">
+
+    <TextView
+        android:id="@+id/tv_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Information"
+        android:textColor="#2B73BA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_rectangle"
+        android:layout_width="329dp"
+        android:layout_height="564dp"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <RadioButton
+        android:id="@+id/rb_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="604dp"
+        android:fontFamily="@font/poppins_medium"
+        android:includeFontPadding="false"
+        android:textSize="13sp"
+        android:text="I accept the terms and condition of this feature"
+        app:layout_constraintEnd_toEndOf="@id/tv_information"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@id/tv_information"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information" />
+
+
+    <RadioButton
+        android:id="@+id/rb_dont_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="636dp"
+        android:fontFamily="@font/poppins_medium"
+        android:includeFontPadding="false"
+        android:text="Don't show this message again"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information" />
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#4799E9"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Lanjutkan"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/rb_terms"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@id/rb_terms"
+        app:layout_constraintTop_toBottomOf="@+id/rb_terms" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

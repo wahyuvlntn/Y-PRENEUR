@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Y-PRENEUR</string>
+    <string name="app_name">""</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="marketing">
+        <item>Open Stand</item>
+        <item>Open Store</item>
+        <item>Sell Online</item>
+    </string-array>
 </resources>

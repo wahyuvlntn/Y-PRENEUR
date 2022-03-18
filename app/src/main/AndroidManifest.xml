@@ -10,10 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YPRENEUR">
         <activity
-            android:name=".HomeScreenActivity"
+            android:name=".BusinessCreatedActivity"
             android:exported="false" />
         <activity
-            android:name=".MainMenuActivity"
+            android:name=".BuildAttentionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuildBusinessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusinessPlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseBusinessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainBusinessCreateActivity"
             android:exported="false" />
         <activity
             android:name=".AccountCreateActivity"
@@ -22,7 +34,7 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".login_register.SignUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +42,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
