@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.376"
-        tools:ignore="MissingConstraints" />
+         />
 
     <Button
         android:id="@+id/learn_btn"
@@ -31,11 +31,11 @@
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/build_btn"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.377"
-        tools:ignore="MissingConstraints" />
+         />
 
     <Button
         android:id="@+id/button3"
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toEndOf="@+id/build_btn"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.372"
-        tools:ignore="MissingConstraints" />
+         />
 
     <Button
         android:id="@+id/button4"

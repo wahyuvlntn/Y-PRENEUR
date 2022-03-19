@@ -17,7 +17,7 @@ class HomeActivity1 : AppCompatActivity() {
         binding = ActivityHome1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buildBtn.setOnClickListener{
+        binding.build1Btn.setOnClickListener{
             val intent = Intent(this@HomeActivity1, BuildBusinessActivity::class.java)
             startActivity(intent)
         }
