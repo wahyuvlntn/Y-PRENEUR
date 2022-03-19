@@ -8,18 +8,30 @@
     android:background="@drawable/ic_login_1"
     tools:context=".login_activity.login1_activity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
     <Button
         android:id="@+id/btn_next2"
         android:layout_width="241dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80dp"
-        android:layout_marginEnd="116dp"
         android:backgroundTint="#4799E9"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Get Started"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.936"></Button>
+        app:layout_constraintVertical_bias="0.925"></Button>
 </androidx.constraintlayout.widget.ConstraintLayout>
