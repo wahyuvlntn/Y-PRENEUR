@@ -188,6 +188,16 @@
         app:layout_constraintStart_toStartOf="@id/tv_penjelasan_produk"
         app:layout_constraintTop_toTopOf="@id/tv_penjelasan_produk"></TextView>
 
+    <EditText
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bubble"
+        app:layout_constraintEnd_toEndOf="@id/tv_company_logo"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:hint="  Choose File"
+        app:layout_constraintStart_toStartOf="@id/tv_company_logo"
+        app:layout_constraintTop_toBottomOf="@id/tv_company_logo"></EditText>
+
     <Button
         android:id="@+id/btn_lanjut"
         android:layout_width="202dp"
@@ -208,7 +218,6 @@
         android:layout_width="336dp"
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
-
         android:entries="@array/marketing"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="@id/tv_bentuk_pemasaran"

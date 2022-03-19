@@ -8,6 +8,7 @@ import android.widget.Toast
 import com.example.y_preneur.databinding.ActivityLogin1Binding
 import com.example.y_preneur.databinding.ActivityLogin2Binding
 import com.example.y_preneur.home_page_activity.HomeActivity
+import com.example.y_preneur.home_page_activity.HomeActivity1
 import com.example.y_preneur.login_register.SignUpActivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -21,6 +22,9 @@ class login2_activity : AppCompatActivity() {
         setContentView(binding.root)
 
         auth = FirebaseAuth.getInstance()
+
+
+
 
         binding.loginBtn.setOnClickListener{
             val email  = binding.etEmail1.text.toString().trim()
@@ -44,13 +48,18 @@ class login2_activity : AppCompatActivity() {
             loginUser(email, password)
         }
 
+        binding.accountBtn.setOnClickListener{
+            val intent = Intent(this@login2_activity, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun loginUser(email:String, password:String){
         auth.signInWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
                 if(it.isSuccessful){
-                    val intent = Intent(this@login2_activity, HomeActivity::class.java).also {
+                    val intent = Intent(this@login2_activity, HomeActivity1::class.java).also {
                         it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                         startActivity(it)
                     }
@@ -61,17 +70,5 @@ class login2_activity : AppCompatActivity() {
                 }
             }
 
-//        binding = ActivityLogin2Binding.inflate(layoutInflater)
-//        setContentView(binding.root)
-
-        binding.loginBtn.setOnClickListener{
-            val intent = Intent(this@login2_activity, HomeActivity::class.java)
-            startActivity(intent)
-        }
-
-            binding.accountBtn.setOnClickListener{
-                val intent = Intent(this@login2_activity, SignUpActivity::class.java)
-                startActivity(intent)
-            }
         }
     }

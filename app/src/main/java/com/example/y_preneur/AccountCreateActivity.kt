@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.y_preneur.databinding.ActivityAccountCreateBinding
+import com.example.y_preneur.home_page_activity.HomeActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class AccountCreateActivity : AppCompatActivity() {
@@ -19,7 +20,7 @@ class AccountCreateActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         binding.btnContApp.setOnClickListener {
-            val intent = Intent(this@AccountCreateActivity,BuildBusinessActivity::class.java)
+            val intent = Intent(this@AccountCreateActivity,HomeActivity::class.java)
             startActivity(intent)
         }
 
