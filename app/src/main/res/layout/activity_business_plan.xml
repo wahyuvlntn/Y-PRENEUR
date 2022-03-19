@@ -208,7 +208,6 @@
         android:layout_width="336dp"
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
-
         android:entries="@array/marketing"
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="@id/tv_bentuk_pemasaran"
