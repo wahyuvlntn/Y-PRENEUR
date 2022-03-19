@@ -29,19 +29,29 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_profile_user.xml" value="0.19655797101449277" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_nav_menu.xml" value="0.102803738317757" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.1645" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_account_create.xml" value="0.17552083333333332" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.22" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_build_attention.xml" value="0.17552083333333332" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_build_business.xml" value="0.17552083333333332" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_business_created.xml" value="0.17552083333333332" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_business_plan.xml" value="0.17552083333333332" />
-        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_fragment3.xml" value="0.12545289855072464" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_home1.xml" value="0.17552083333333332" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login1.xml" value="0.17552083333333332" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login2.xml" value="0.14666666666666667" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login3.xml" value="0.17552083333333332" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_main_business_create.xml" value="0.3333333333333333" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_news2.xml" value="0.12545289855072464" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_profile1.xml" value="0.3333333333333333" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_profile2.xml" value="0.3333333333333333" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_profile3.xml" value="0.16666666666666666" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_sign_up.xml" value="0.17552083333333332" />
+        <entry key="..\:/Y-PRENEUR/app/src/main/res/menu/bottom_menu.xml" value="0.16203703703703703" />
       </map>
     </option>
   </component>

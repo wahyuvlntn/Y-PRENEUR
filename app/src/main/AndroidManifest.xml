@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YPRENEUR">
         <activity
+            android:name=".home_page_activity.Profile3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_activity.Profile2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_activity.Fragment3"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_activity.Profile1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_activity.BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".home_page_activity.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".login_activity.login2_activity"
             android:exported="false" />
         <activity
@@ -21,7 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".BusinessCreatedActivity"
             android:exported="false" />
@@ -48,8 +65,7 @@
             android:exported="false" />
         <activity
             android:name=".login_register.SignUpActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

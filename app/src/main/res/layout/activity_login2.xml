@@ -4,14 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_bg"
+    android:background="@drawable/bg_design_1"
+    android:foregroundTint="#00FFFFFF"
     tools:context=".login_activity.login2_activity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/bg_design_1"
-        tools:context=".RegisterActivity">
 
         <TextView
             android:id="@+id/tv_phone_number"
@@ -32,6 +28,7 @@
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_bubble"
             app:layout_constraintEnd_toEndOf="@id/tv_phone_number"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/tv_phone_number"
@@ -43,6 +40,7 @@
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="28dp"
+            android:background="@drawable/rounded_bubble"
             app:layout_constraintEnd_toEndOf="@id/tv_birth"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@id/tv_birth"
@@ -74,10 +72,12 @@
             app:layout_constraintTop_toBottomOf="@+id/et_password1"
             app:layout_constraintVertical_bias="0.0" />
 
+
         <Button
             android:id="@+id/login_btn"
             android:layout_width="196dp"
             android:layout_height="49dp"
+            android:background="@null"
             android:backgroundTint="#4799E9"
             android:text="Log In"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -85,22 +85,68 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/et_password1"
-            app:layout_constraintVertical_bias="0.295" />
+            app:layout_constraintVertical_bias="0.393" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tv_sign_up4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
 
-    <TextView
-        android:id="@+id/tv_sign_up4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:gravity="center"
-        android:text="Log In"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        <Button
+            android:id="@+id/button7"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Forgot Password?"
+            android:textColor="#4799E9"
+            android:textSize="12dp"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.761"
+            app:layout_constraintStart_toEndOf="@+id/radioButton"
+            app:layout_constraintTop_toBottomOf="@+id/et_password1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/account_btn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="128dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Create Account"
+            android:textColor="#4799E9"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:iconTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/login_btn"
+            app:layout_constraintVertical_bias="0.141" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="151dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="60dp"
+            android:text="Don't have an account?"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_btn"
+            app:layout_constraintVertical_bias="0.315" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
-import com.example.myapplication.HomeActivity
-import com.example.y_preneur.R
+import com.example.y_preneur.databinding.ActivityLogin1Binding
 import com.example.y_preneur.databinding.ActivityLogin2Binding
-import com.example.y_preneur.databinding.ActivitySignUpBinding
+import com.example.y_preneur.home_page_activity.HomeActivity
+import com.example.y_preneur.login_register.SignUpActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class login2_activity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class login2_activity : AppCompatActivity() {
     private lateinit var binding: ActivityLogin2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_login2)
+
         binding = ActivityLogin2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -43,7 +43,9 @@ class login2_activity : AppCompatActivity() {
 
             loginUser(email, password)
         }
+
     }
+
     private fun loginUser(email:String, password:String){
         auth.signInWithEmailAndPassword(email,password)
             .addOnCompleteListener(this){
@@ -58,5 +60,18 @@ class login2_activity : AppCompatActivity() {
                     Toast.makeText(this, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
+
+//        binding = ActivityLogin2Binding.inflate(layoutInflater)
+//        setContentView(binding.root)
+
+        binding.loginBtn.setOnClickListener{
+            val intent = Intent(this@login2_activity, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
+            binding.accountBtn.setOnClickListener{
+                val intent = Intent(this@login2_activity, SignUpActivity::class.java)
+                startActivity(intent)
+            }
+        }
     }
-}

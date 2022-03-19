@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/homeActivity"
+        android:icon="@drawable/ic_home"/>
+    <item android:title="Profile"
+        android:id="@+id/profile1Activity"
+        android:icon="@drawable/ic_profile"/>
+    <item android:title="Bussiness"
+        android:id="@+id/fragment3"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"/>
+</menu>

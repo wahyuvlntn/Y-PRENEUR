@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.y_preneur.home_page_activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,14 +12,8 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         val news1: Button = findViewById (R.id.button4)
-        val news2: Button = findViewById (R.id.button8)
         news1.setOnClickListener() {
             val intent = Intent(this, news1::class.java)
-            startActivity(intent)
-        }
-
-        news2.setOnClickListener() {
-            val intent = Intent(this, news2::class.java)
             startActivity(intent)
         }
     }
