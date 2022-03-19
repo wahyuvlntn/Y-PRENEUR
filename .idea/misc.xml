@@ -16,7 +16,11 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_business_plan.xml" value="0.18" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_choose_business.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_create_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_home.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_login.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_login2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_login3.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main_business_create.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/activity_main_menu.xml" value="0.15" />
@@ -29,9 +33,6 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/layout/fragment_profile_user.xml" value="0.19655797101449277" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/YPRENEUR/app/src/main/res/menu/bottom_nav_menu.xml" value="0.102803738317757" />
-        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_login2.xml" value="0.17552083333333332" />
-        <entry key="..\:/Y-PRENEUR/app/src/main/res/layout/activity_sign_up.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
