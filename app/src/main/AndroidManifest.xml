@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YPRENEUR">
         <activity
+            android:name=".LearnBusinessActivity"
+            android:exported="false" />
+        <activity
             android:name=".login_activity.login2_activity"
             android:exported="false" />
         <activity
@@ -21,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".BusinessCreatedActivity"
             android:exported="false" />
@@ -48,8 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".login_register.SignUpActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
