@@ -7,6 +7,6 @@ import com.example.y_preneur.R
 class login2_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login3)
+        setContentView(R.layout.activity_login2)
     }
 }
